@@ -59,6 +59,9 @@ ul{
         width: 110px;
         padding: 5px;
     }
+    footer p{
+        font-size: .8rem;
+    }
     body{
         min-height: 100vh;
         position: relative;
