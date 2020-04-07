@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+body{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    background-image: url('img/blank-memo-notebook-pad-461435.jpg');
+    color: rgb(15, 28, 141);
+    background-position: center top;
+    background-size: 100% auto; 
+    height: 100%;
+}
+
+h1{
+    margin-top: 1rem;
+    padding: 1rem;
+    text-shadow: 9px 7px 5px rgba(106, 109, 81, 0.938);
+}
+button{
+    margin: 1rem;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem          /* Footer height */
+    padding: 2rem;
+    
+}
+
+ul{
+    text-align: left;
+    color: rgb(15, 28, 141);
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+
+
+@media screen and (max-width: 576px) { /* Specific to this particular image */
+    
+    background-position: center top;
+    background-size: 100% auto;
+
+    footer{
+        height: 110px;
+        width: 110px;
+        padding: 5px;
+    }
+    body{
+        min-height: 100vh;
+        position: relative;
+    }
+    
+  }
