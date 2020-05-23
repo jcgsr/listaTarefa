@@ -4,16 +4,18 @@ body{
     font-family: 'Courgette', cursive;
     text-align: center;
     background-image: url('img/blank-memo-notebook-pad-461435.jpg');
-    color: rgb(15, 28, 141);
+    color: yellow;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover; 
+    margin: 0;
+    width: 100%;
 }
 
 h1{
     margin-top: 1rem;
     padding: 1rem;
-    text-shadow: 9px 7px 5px rgba(106, 109, 81, 0.938);
+    text-shadow: 9px 7px 5px rgba(86, 10, 1, 0.938);
 }
 button{
     margin: 1rem;
@@ -21,9 +23,9 @@ button{
 footer{
     background-color: black;
     color: aliceblue;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    text-align: center;
+    padding: 1rem;
 }
 
 ul{
@@ -31,6 +33,11 @@ ul{
     color: rgb(15, 28, 141);
     font-weight: bolder;
     font-size: 1.8rem;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
 }
 
 #taskArea{
@@ -43,11 +50,6 @@ ul{
 #date{
     margin-top: 17rem;
     color: rgb(15, 28, 141);
-}
-#footer{
-    padding: 1rem 1rem .5rem 1rem;
-    margin-bottom: 0 auto;
-    line-height: 1rem;
 }
 
 @media screen and (max-width: 556px) { /* Specific to this particular image */
